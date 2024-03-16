@@ -3,42 +3,25 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Vanilla JS</title>
+        <title>VE|EV</title>
         <meta charset="utf-8" />
         <script crossorigin type="module" src="./index.js"></script>
-        <style>
-            body {
-                margin: 0;
-                display: flex;
-                height: 100vh;
-                align-items: center;
-                justify-content: center;
-            }
-            h2 {
-                margin: 0;
-            }
-            .container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                border: 1px solid #000;
-                border-radius: 20px;
-                padding: 20px;
-            }
-            .label {
-                margin-top: 20px;
-                margin-bottom: 10px;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="container">
+        <div class="banner">
+            <img src="sample-vanilla-app/assets/images/VEEV-logo.png" alt="Logo" class="logo">
+        </div>
+
+        <h1 class="pageTitle">Welcome to VEEV</h1>
+
+        <p>Test paragraph.</p>
+        <!--<div class="container">
             <h2>Vanilla JS</h2>
             <div class="label">kit button:</div>
             <vdk-button></vdk-button>
             <div class="label">custom button:</div>
             <button id="custom-button">Connect Custom Button</button>
-        </div>
+        </div>-->
     </body>
 </html>
