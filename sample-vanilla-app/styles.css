@@ -9,6 +9,10 @@ h1, h2, h3 {
     margin: 0;
 }
 
+select {
+    margin: 5px;
+}
+
 .banner {
     background-color: #ffffff; /* Background color for the banner */
     height: 100px; /* Adjust height as needed */
@@ -29,6 +33,16 @@ h1, h2, h3 {
     /* Add more styles as needed */
 }
 
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -38,6 +52,8 @@ h1, h2, h3 {
     /*border-radius: 20px;*/
     padding: 20px;
 }
+
+
 .label {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -50,4 +66,22 @@ h1, h2, h3 {
     margin-top: 20px;
     max-width: 700px; /* Limit the maximum width of the logo */
     height: auto; /* Maintain aspect ratio */
+}
+
+#provider-button {
+        background-color: #f93dbb; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+#energy-supplier {
+    display: flex;
 }

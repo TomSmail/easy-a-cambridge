@@ -11,6 +11,7 @@
         <script crossorigin type="module" src="./index.js"></script>
         <link rel="stylesheet" href="styles.css">
         <script src="./batterySelector.js" type="text/javascript"> </script>
+
     </head>
     <body onload="javascript:batteryImage(100,100)">
         <div class="banner">
@@ -24,7 +25,14 @@
         <div class="container">
             <!-- Insert and image using the batteryImageUrl  -->
             <img id="battery" src="assets/images/battery-0-100.png" title="" />
-            
+        </div>
+
+        <div class="container">
+            <select name="energy-supplier" id="energy-supplier" onchange="changeProvider()">
+                <option value="Clean">Clean</option>
+                <option value="Dirty">Dirty energy</option>
+            </select>
+            <button id="provider-button" onclick="selectProvider()">Select Provider</button>
         </div>
     </body>
 </html>
