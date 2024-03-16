@@ -61,16 +61,15 @@ contract EnergyMarket {
 
         // Calculate the net payment to supplier
         uint256 netPayment = (order.value * 95) / 100;
-        // Transfer net payment to the supplier
-        payable(order.supplier).transfer(netPayment);
 
         // Handle green energy bonus if applicable
         if (order.isGreenOrder) {
             uint256 bonusAmount = greenEnergyBonus * order.quantity;
             // Transfer bonus to both buyer and supplier
             payable(order.buyer).transfer(bonusAmount);
-            payable(order.supplier).transfer(bonusAmount);
+            payable(order.supplier).transfer(bonusAmount + netPayment);
         }
+        else payable(order.supplier).transfer(netPayment);
 
         suppliers[order.supplier].totalSupplied += order.quantity; // Update total supplied
         emit OrderFulfilled(_orderId, order.buyer, order.supplier, order.quantity, order.value, order.isGreenOrder);
