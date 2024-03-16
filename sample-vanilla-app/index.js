@@ -44,32 +44,3 @@ handleConnected(DAppKitUI.wallet.state.address);
 
 DAppKitUI.modal.onConnectionStatusChange(handleConnected);
 
-// Battery Status function
-function batteryImage(batteryLevel, sustainableEnergyLevel) {
-    var image = document.getElementById("battery");
-    var batteryImgUrl = 'assets/battery-';
-    switch (sustainableEnergyLevel) {
-        // all of the battery is using sustainable energy
-        case 100:
-            batteryImgUrl += '100';
-        // half of the batter is using sustainable energy
-        case 50:
-            batteryImgUrl += '50';
-        // none of the battery is using sustainable energy
-        default:
-            batteryImgUrl += '0';
-    }
-
-    // battery level
-    switch (batteryLevel) {
-        case 100:
-            batteryImgUrl += '-100';
-        case 50:
-            batteryImgUrl += '-50';
-        default:
-            batteryImgUrl += '-0';
-    }   
-    
-    batteryImgUrl += '.png';
-    image.src = batteryImgUrl;
-}
