@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@vechain/connex.driver": "^1.1.0",
+    "@vechain/connex.driver-nodejs": "^1.2.0-beta6"
+  }
+}
