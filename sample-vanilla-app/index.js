@@ -72,5 +72,4 @@ function batteryImage(batteryLevel, sustainableEnergyLevel) {
     
     batteryImgUrl += '.png';
     image.src = batteryImgUrl;
-   
 }
