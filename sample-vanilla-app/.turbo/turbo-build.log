@@ -1,0 +1,22 @@
+$ parcel build index.html --public-url /vechain-dapp-kit/vanilla
+(node:29728) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Building...
+Error: Expected content key 8b5053e9e0186ff5 to exist
+  Error: Expected content key 8b5053e9e0186ff5 to exist
+🚨 Build failed.
+
+
+      at nullthrows (C:\Users\Gracie Zhou\easy-a-cambridge\vechain-dapp-kit\node_modules\nullthrows\nullthrows.js:7:15)
+      at AssetGraph.getNodeIdByContentKey (C:\Users\Gracie Zhou\easy-a-cambridge\vechain-dapp-kit\node_modules\@parcel\graph\lib\ContentGraph.js:67:38)
+
+      at C:\Users\Gracie Zhou\easy-a-cambridge\vechain-dapp-kit\node_modules\@parcel\core\lib\SymbolPropagation.js:52:82
+      at Array.map (<anonymous>)
+      at propagateSymbols (C:\Users\Gracie Zhou\easy-a-cambridge\vechain-dapp-kit\node_modules\@parcel\core\lib\SymbolPropagation.js:52:61)
+      at AssetGraphBuilder.build (C:\Users\Gracie Zhou\easy-a-cambridge\vechain-dapp-kit\node_modules\@parcel\core\lib\requests\AssetGraphRequest.js:173:62)
+      at async Object.run (C:\Users\Gracie Zhou\easy-a-cambridge\vechain-dapp-kit\node_modules\@parcel\core\lib\requests\AssetGraphRequest.js:61:37)
+      at async RequestTracker.runRequest (C:\Users\Gracie Zhou\easy-a-cambridge\vechain-dapp-kit\node_modules\@parcel\core\lib\RequestTracker.js:637:20)
+      at async Object.run (C:\Users\Gracie Zhou\easy-a-cambridge\vechain-dapp-kit\node_modules\@parcel\core\lib\requests\BundleGraphRequest.js:105:11)
+      at async RequestTracker.runRequest (C:\Users\Gracie Zhou\easy-a-cambridge\vechain-dapp-kit\node_modules\@parcel\core\lib\RequestTracker.js:637:20)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
