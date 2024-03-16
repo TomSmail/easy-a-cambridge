@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display:block;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+
+.banner {
+    background-color: #333; /* Background color for the banner */
+    height: 100px; /* Adjust height as needed */
+    display: flex;
+    align-items: center; /* Vertically center the logo */
+    justify-content: center; /* Horizontally center the logo */
+}
+
+.logo {
+    max-width: 200px; /* Limit the maximum width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.pageTitle {
+    font-size: 24px;
+    color: #333;
+    /* Add more styles as needed */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+}
+.label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
