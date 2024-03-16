@@ -18,8 +18,9 @@ select {
     height: 100px; /* Adjust height as needed */
     display: flex;
     align-items: center; /* Vertically center the logo */
-    justify-content: center; /* Horizontally center the logo */
-    padding: 10px;
+    justify-content: left; /* Horizontally center the logo */
+    padding: 15px;
+    padding-left: 20px;
 }
 
 .logo {
@@ -59,29 +60,84 @@ button:hover {
     margin-bottom: 10px;
 }
 
-.car {
+.image {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    margin-top: 20px;
-    max-width: 700px; /* Limit the maximum width of the logo */
+    padding: 10px;
+    padding-top: 0px;
+    max-width: -webkit-fill-available;
     height: auto; /* Maintain aspect ratio */
 }
 
-#provider-button {
-        background-color: #f93dbb; /* Green */
-        border: none;
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 8px;
-    }
-
-#energy-supplier {
-    display: flex;
+.battery {
+    max-width: -webkit-fill-available;
 }
+
+.car {
+    padding-top: 0px;
+}
+
+.selections {
+    flex-direction: row;
+    align-items: center;
+}
+ 
+
+#car {
+    width:700px;
+    max-width:80%;
+}
+
+#battery {
+    width:400px;
+    max-width: 60%;
+}
+
+#provider-button {
+    margin: 10px;
+    background-color: #2CC469; /* Green */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+}
+
+#provider-button:hover {
+    background-color: #25a358; /* Background color on hover */
+}
+
+#supplier-dropdown {
+    margin: 10px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px; /* Adjusted line-height to vertically center text */
+    height: 50px;
+    width: 150px;
+    transition: all 200ms ease-in-out;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-align: center; /* Center text horizontally */
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #000000;
+    box-shadow: 0 12px 35px 0 rgba(255,235,167,.15);
+    border:2px solid #000000;
+}
+
+#supplier-dropdown:hover {
+    color: #ffffff;
+    background-color: #2CC469;
+  }

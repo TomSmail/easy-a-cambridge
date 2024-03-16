@@ -45,7 +45,7 @@ handleConnected(DAppKitUI.wallet.state.address);
 DAppKitUI.modal.onConnectionStatusChange(handleConnected);
 
 function changeProvider() {
-    var selectElement = document.getElementById("energy-supplier");
+    var selectElement = document.getElementById("supplier-dropdown");
     var buttonElement = document.getElementById("provider-button");
     var selectedOption = selectElement.options[selectElement.selectedIndex].text;
     buttonElement.textContent = "Select " + selectedOption + " As Provider";
