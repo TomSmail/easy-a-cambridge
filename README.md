@@ -11,9 +11,8 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -28,6 +27,9 @@
   </ol>
 </details>
 
+## Summary
+EV owners are currently paying for energy from non-sustainable sources and don't have the option to charge using sustainable power. To solve this we have devised a way to put energy onto the blockchain, using our proprietary VEEV coin so EV owners can buy directly from Green-Energy producers. They are incentivised to do this using VeChain's 'buy green to earn' framework, where they receive VET as a reward when they purchase green energy.
+
 ## About The Project
 <!-- ADD HOMESCREEN  -->
 
@@ -36,7 +38,8 @@
     <img src="sample-vanilla-app/assets/images/homepage.jpg" alt="Homescreen" width="700">
   </a>
 </div>
-Summary blah blah
+
+
 
 * VE|EV gives electric vehicle owners the power to choose where they source their energy – handled and authenticated through VechainThor blockchain.
 
