@@ -3,44 +3,38 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vanilla JS</title>
+        <title>VE|EV</title>
+        <meta name="description" content="VEchain EVs">
+        <link rel="icon" href="/veev-favicon.22efee5f.png" type="image/x-icon">
+        <!-- Favicon -->
         <meta charset="utf-8">
         <script crossorigin="" src="/index.3d214d75.js" defer=""></script>
-        <style>body {
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  display: flex;
-}
+        <link rel="stylesheet" href="/index.1303bb05.css">
+        <script src="/index.2a97599c.js">
+</script>
 
-h2 {
-  margin: 0;
-}
-
-.container {
-  border: 1px solid #000;
-  border-radius: 20px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  display: flex;
-}
-
-.label {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-</style>
     </head>
-    <body>
-        <div class="container">
-            <h2>Vanilla JS</h2>
-            <div class="label">kit button:</div>
-            <vdk-button></vdk-button>
-            <div class="label">custom button:</div>
-            <button id="custom-button">Connect Custom Button</button>
+    <body onload="javascript:batteryImage(100,100)">
+        <div class="banner">
+            <img src="/VEEV-logo.e1ca486a.png" alt="Logo" class="logo">
         </div>
+
+        <div class="container car">
+           <img id="car" src="/Model3_SideView.0962e90e.jpeg" alt="car" class="image">
+        </div>
+
+        <div class="container">
+            <!-- Insert and image using the batteryImageUrl  -->
+            <img id="battery" src="/battery-0-100.8dae12ea.png" alt="battery" class="image">
+        </div>
+
+        <div class="container selections">
+            <select name="supplier-dropdown" id="supplier-dropdown" onchange="changeProvider()">
+                <option value="Clean">Clean</option>
+                <option value="Dirty">Dirty energy</option>
+            </select>
+            <button id="provider-button">Select Provider</button>
+        </div>
+
     </body>
 </html>

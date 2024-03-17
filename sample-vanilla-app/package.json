@@ -14,7 +14,8 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "@vechain/dapp-kit-ui": "*"
+        "@vechain/dapp-kit-ui": "^1.0.12",
+        "axios": "^1.6.8"
     },
     "devDependencies": {
         "crypto-browserify": "^3.12.0",
