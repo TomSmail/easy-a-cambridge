@@ -1,11 +1,11 @@
 # VE|EV
-<!-- ADD LOGO -->
+<!-- ADD LOGO
 <div align="center">
   <a href="https://github.com/TomSmail/easy-a-cambridge">
     <img src="sample-vanilla-app/assets/images/VEEV-logo.png" alt="Logo" width="400">
   </a>
 </div>
-
+-->
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -30,15 +30,19 @@
 
 ## About The Project
 <!-- ADD HOMESCREEN  -->
-[![Home Page Screen Shot][homepage-screenshot]](https://example.com)
 
+<div align="center">
+  <a href="https://github.com/TomSmail/easy-a-cambridge">
+    <img src="sample-vanilla-app/assets/images/homepage.jpg" alt="Homescreen" width="700">
+  </a>
+</div>
 Summary blah blah
 
-* VeeV gives electric vehicle owners the power to choose where they source their energy – handled and authenticated through VechainThor blockchain.
+* VE|EV gives electric vehicle owners the power to choose where they source their energy – handled and authenticated through VechainThor blockchain.
 
 * We reward those who charge with sustainable sources VET, offering them discounts on sustainable energy with the aim of encouraging sustainable energy production.
 
-* We hope to diversify our service to extend beyond electric charging; we see our VeeV token becoming an industry standard for sustainable energy, and empowering individuals with their own solar farms and wind turbines to sell back to the grid. We see ourselves holding firms and consumers accountable for their consumption while rewarding sustainable consumers.
+* We hope to diversify our service to extend beyond electric charging; we see our VE|EV token becoming an industry standard for sustainable energy, and empowering individuals with their own solar farms and wind turbines to sell back to the grid. We see ourselves holding firms and consumers accountable for their consumption while rewarding sustainable consumers.
 
 ### Built With
 * VeChain
@@ -92,5 +96,6 @@ VE|EV - [@the_VEEV_team](https://twitter.com/the_VEEV_team) - email@example.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- MARKDOWN LINKS & IMAGES js, vechain sdk,  -->
-[homepage-screenshot]: sample-vanilla-app/assets/images/homepage.png
+<!-- MARKDOWN LINKS & IMAGES js, vechain sdk,
+[homepage-screenshot]: sample-vanilla-app/assets/images/homepage.jpg
+-->
