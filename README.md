@@ -74,6 +74,12 @@ _Instruct audience on installing and setting up app._
 -->
 
 ## Roadmap 
+<div align="center">
+  <a href="https://github.com/TomSmail/easy-a-cambridge">
+    <img src="sample-vanilla-app/assets/images/vechain-roadmap.png" alt="Roadmap" width="700">
+  </a>
+</div>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
