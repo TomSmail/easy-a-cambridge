@@ -51,7 +51,6 @@ EV owners are currently paying for energy from non-sustainable sources and don't
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--
 ## Getting Started
 
 To run: [1] clone repo [2] cd sample-vanilla-app [3] yarn (if first time) [4] yarn dev
